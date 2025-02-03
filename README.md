@@ -43,7 +43,7 @@ Installing
 Clone the repository:
 
 bash
-git clone https://github.com/your_username/flutter_todo_app.git
+git clone [https://github.com/your_username/flutter_todo_app.git](https://github.com/Avii00723/TodoApp.git)
 cd flutter_todo_app
 Install the dependencies:
 
