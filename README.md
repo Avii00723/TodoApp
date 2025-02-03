@@ -12,7 +12,10 @@ A simple Todo App built with Flutter, allowing users to manage tasks efficiently
 - Set custom background colors for task cards.
 - Filter tasks by Today, This Week, and This Month.
 
-## Screenshots
+![Screenshot 2025-02-03 181150](https://github.com/user-attachments/assets/230e02be-1325-4889-b308-2330244ce055)
+![Screenshot 2025-02-03 181223](https://github.com/user-attachments/assets/2c4a4dc3-6ef5-4600-bae6-384414ded58c)
+![Screenshot 2025-02-03 181235](https://github.com/user-attachments/assets/f668c46d-3019-499c-8de5-e3376d4bf8c6)
+
 
 _Include some screenshots of your app here._
 
@@ -92,11 +95,4 @@ Sorting Tasks
 Open the navigation drawer.
 
 Select "Today", "This Week", or "This Month" to filter tasks accordingly.
-
-
-![Screenshot 2025-02-03 181150](https://github.com/user-attachments/assets/d2ee2641-345b-47d1-af49-ab1b3fdca871)
-
-![Screenshot 2025-02-03 181223](https://github.com/user-attachments/assets/cacd295c-6797-4d3c-bea8-5d56894a5940)
-
-![Screenshot 2025-02-03 181235](https://github.com/user-attachments/assets/16e78cb8-39a6-4b84-81c4-e6b1b2a189d7)
 
