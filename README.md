@@ -1,16 +1,102 @@
-# todoapp
+# Flutter Todo App
 
-A new Flutter project.
+A simple Todo App built with Flutter, allowing users to manage tasks efficiently with features like adding, editing, deleting, marking tasks as important, and sorting tasks by today, this week, or this month.
+
+## Features
+
+- Add new tasks with details such as title, description, category, date, time, and importance.
+- Edit existing tasks.
+- Delete tasks.
+- Mark tasks as completed.
+- Highlight important tasks with a star icon.
+- Set custom background colors for task cards.
+- Filter tasks by Today, This Week, and This Month.
+
+## Screenshots
+
+_Include some screenshots of your app here._
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Installation Guide](https://flutter.dev/docs/get-started/install)
+- Dart: [Installation Guide](https://dart.dev/get-dart)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add the following dependencies in your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^5.0.0
+  shared_preferences: ^2.0.0
+  intl: ^0.17.0
+  flutter_colorpicker: ^1.0.0
+
+Installing
+Clone the repository:
+
+bash
+git clone https://github.com/your_username/flutter_todo_app.git
+cd flutter_todo_app
+Install the dependencies:
+
+bash
+flutter pub get
+Running the App
+Connect your device or start an emulator.
+
+Run the app:
+
+bash
+flutter run
+Project Structure
+plaintext
+lib/
+├── main.dart
+├── todo_screen.dart
+├── new_task_screen.dart
+├── task_provider.dart
+main.dart: Entry point of the application.
+
+todo_screen.dart: Main screen displaying the list of tasks with sorting functionality.
+
+new_task_screen.dart: Screen for adding and editing tasks.
+
+task_provider.dart: Provider class for managing the state of tasks and performing CRUD operations.
+
+Usage
+Adding a Task
+Tap the "+" button to open the new task screen.
+
+Enter task details: title, description, category, date, time, and mark as important if needed.
+
+Pick a custom background color for the task card.
+
+Tap "Add Task" to save the task.
+
+Editing a Task
+Tap the edit button (pencil icon) on a task card to open the edit task screen.
+
+Modify the task details.
+
+Tap "Edit Task" to save changes.
+
+Deleting a Task
+Tap the delete button (trash icon) on a task card to remove the task.
+
+Sorting Tasks
+Open the navigation drawer.
+
+Select "Today", "This Week", or "This Month" to filter tasks accordingly.
+
+
+![Screenshot 2025-02-03 181150](https://github.com/user-attachments/assets/d2ee2641-345b-47d1-af49-ab1b3fdca871)
+
+![Screenshot 2025-02-03 181223](https://github.com/user-attachments/assets/cacd295c-6797-4d3c-bea8-5d56894a5940)
+
+![Screenshot 2025-02-03 181235](https://github.com/user-attachments/assets/16e78cb8-39a6-4b84-81c4-e6b1b2a189d7)
+
